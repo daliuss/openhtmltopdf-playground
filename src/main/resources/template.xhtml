@@ -1,0 +1,42 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="Test"></title>
+    <style>
+
+        /* Hind (Hindi) */
+
+        @font-face {
+            font-family: 'Hind';
+            font-weight: normal;
+            src: url(fonts/Hind/Hind-Light.ttf);
+        }
+
+        /* Meiryo */
+
+        @font-face {
+            font-family: 'Meiryo';
+            font-weight: normal;
+            src: url(fonts/Meiryo/Meiryo.ttf);
+        }
+
+        @page {
+            margin: 27pt;
+            size: A4;
+        }
+
+        body {
+            font-family: 'Hind', 'Meiryo', sans-serif;
+            font-weight: normal;
+            font-size: 10pt;
+            color: #444547;
+            letter-spacing: 0.5pt
+        }
+
+    </style>
+</head>
+<body>
+<span>Hindi नमस्त Hiragana ひらがな Katakana カタカナ</span>
+
+</body>
+</html>
